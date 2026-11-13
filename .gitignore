@@ -1,0 +1,20 @@
+# Participant local state (never commit)
+.github/student.local.md
+.env
+.env.*
+!.env.example
+
+# Scaffolded Fabric Apps projects during hands-on
+smart-ops-hub/
+*-app/
+node_modules/
+dist/
+rayfin/.deployments.json
+
+# Python / OS / Editor
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+*.log

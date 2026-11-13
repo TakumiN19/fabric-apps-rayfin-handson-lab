@@ -1,0 +1,124 @@
+{
+  "seed": 20261113,
+  "snapshot_date": "2026-11-01",
+  "counts": {
+    "stores": 12,
+    "products": 20,
+    "inventory_daily": 240
+  },
+  "kpis": {
+    "total_on_hand_qty": 22001,
+    "low_stock_sku_pairs": 72,
+    "total_stockout_risk_jpy": 6143332,
+    "total_suggested_reorder_qty": 6578,
+    "avg_days_of_supply": 7.92
+  },
+  "by_region": {
+    "Kanto": {
+      "rows": 80,
+      "total_on_hand_qty": 7040,
+      "low_stock_count": 21,
+      "total_stockout_risk_jpy": 941834
+    },
+    "Chubu": {
+      "rows": 60,
+      "total_on_hand_qty": 4619,
+      "low_stock_count": 20,
+      "total_stockout_risk_jpy": 3104568
+    },
+    "Kansai": {
+      "rows": 60,
+      "total_on_hand_qty": 6748,
+      "low_stock_count": 17,
+      "total_stockout_risk_jpy": 1366620
+    },
+    "Kyushu": {
+      "rows": 40,
+      "total_on_hand_qty": 3594,
+      "low_stock_count": 14,
+      "total_stockout_risk_jpy": 730310
+    }
+  },
+  "verification_anchors": {
+    "first_row_inv_0001": {
+      "snapshot_id": "INV-0001",
+      "snapshot_date": "2026-11-01",
+      "store_id": "ST-001",
+      "sku": "SKU-101",
+      "on_hand_qty": 72,
+      "avg_daily_sales": 9,
+      "safety_stock_qty": 27,
+      "days_of_supply": 8.0,
+      "is_low_stock": 0,
+      "suggested_reorder_qty": 0,
+      "stockout_risk_jpy": 0
+    },
+    "top_5_low_stock_by_risk": [
+      {
+        "snapshot_id": "INV-0100",
+        "snapshot_date": "2026-11-01",
+        "store_id": "ST-005",
+        "sku": "SKU-120",
+        "on_hand_qty": 30,
+        "avg_daily_sales": 24,
+        "safety_stock_qty": 192,
+        "days_of_supply": 1.25,
+        "is_low_stock": 1,
+        "suggested_reorder_qty": 360,
+        "stockout_risk_jpy": 1441800
+      },
+      {
+        "snapshot_id": "INV-0085",
+        "snapshot_date": "2026-11-01",
+        "store_id": "ST-005",
+        "sku": "SKU-105",
+        "on_hand_qty": 16,
+        "avg_daily_sales": 17,
+        "safety_stock_qty": 119,
+        "days_of_supply": 0.94,
+        "is_low_stock": 1,
+        "suggested_reorder_qty": 230,
+        "stockout_risk_jpy": 718940
+      },
+      {
+        "snapshot_id": "INV-0200",
+        "snapshot_date": "2026-11-01",
+        "store_id": "ST-010",
+        "sku": "SKU-120",
+        "on_hand_qty": 15,
+        "avg_daily_sales": 11,
+        "safety_stock_qty": 88,
+        "days_of_supply": 1.36,
+        "is_low_stock": 1,
+        "suggested_reorder_qty": 168,
+        "stockout_risk_jpy": 649700
+      },
+      {
+        "snapshot_id": "INV-0105",
+        "snapshot_date": "2026-11-01",
+        "store_id": "ST-006",
+        "sku": "SKU-105",
+        "on_hand_qty": 11,
+        "avg_daily_sales": 10,
+        "safety_stock_qty": 70,
+        "days_of_supply": 1.1,
+        "is_low_stock": 1,
+        "suggested_reorder_qty": 130,
+        "stockout_risk_jpy": 411820
+      },
+      {
+        "snapshot_id": "INV-0186",
+        "snapshot_date": "2026-11-01",
+        "store_id": "ST-010",
+        "sku": "SKU-106",
+        "on_hand_qty": 23,
+        "avg_daily_sales": 12,
+        "safety_stock_qty": 72,
+        "days_of_supply": 1.92,
+        "is_low_stock": 1,
+        "suggested_reorder_qty": 132,
+        "stockout_risk_jpy": 258720
+      }
+    ]
+  }
+}

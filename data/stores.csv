@@ -1,0 +1,13 @@
+store_id,store_name,region,manager_upn,tier
+ST-001,東京丸の内フラッグシップ,Kanto,manager.kanto@contoso.com,Flagship
+ST-002,新宿西口メディカルプラザ,Kanto,manager.kanto@contoso.com,Standard
+ST-003,横浜みなとみらいセンター,Kanto,manager.kanto@contoso.com,Standard
+ST-004,大宮ステーションストア,Kanto,manager.kanto@contoso.com,Compact
+ST-005,名古屋栄セントラル,Chubu,manager.chubu@contoso.com,Flagship
+ST-006,浜松アクトプラザ,Chubu,manager.chubu@contoso.com,Compact
+ST-007,静岡駿府メディカル,Chubu,manager.chubu@contoso.com,Standard
+ST-008,大阪梅田グランドハブ,Kansai,manager.kansai@contoso.com,Flagship
+ST-009,京都烏丸ヘルスケア,Kansai,manager.kansai@contoso.com,Standard
+ST-010,神戸三宮ベイストア,Kansai,manager.kansai@contoso.com,Standard
+ST-011,福岡天神センター,Kyushu,manager.kyushu@contoso.com,Flagship
+ST-012,博多駅前アネックス,Kyushu,manager.kyushu@contoso.com,Compact
